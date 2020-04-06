@@ -1,0 +1,58 @@
+.banner_image{
+     padding-top: 75px;
+     text-align: center;
+     color: #f8f8f8;
+     background: url(/images/1.jpg);
+     background-size: cover; 
+}
+#banner_content{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    paddding-right:2;
+    margin-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /*max-width: 660px;*/ 
+}
+.image-wrapper{
+    position: relative;
+}
+.img-responsive{
+    width:100%;
+    height: auto;
+}
+.img-overlay{
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.img-overlay:before{
+    content: ' ';
+    display: block;
+    height:50%;
+}
+.fclass{
+    padding: 10px 0;
+    margin-top: 5%;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.butst{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2020, 1:10:42 PM
+    Author     : DELL
+*/
+
