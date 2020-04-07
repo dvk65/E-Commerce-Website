@@ -19,7 +19,8 @@ if(mysqli_num_rows($sql_result)==0){
 }
 else{
     $res= mysqli_fetch_array($sql,MYSQL_BOTH);
-    $_SESSION['logged_user']=$sqle;
+    $_SESSION['logged_user']=$sql_sess;
+    $_SESSION['id']= mysqli_insert_id($con);
     header('location:products.php');
 }
 ?>

@@ -24,8 +24,8 @@ if(mysqli_num_rows($my_res)>0){
 else{
     $sql_in="INSERT INTO users (fname,emailid,pass,phone,city,exaddr) VALUES ('$name','$exmail','$password','$cal','$city','$addr')";
     $sqli_in_res= mysqli_query($con, $sql_in) or die($con);
-    $sqlin= mysqli_insert_id($con);
     $_SESSION['logged_user']=$sqlin;
+    $_SESSION['id']= mysqli_insert_id($con);
     header('location:products.php');
 }
 ?>

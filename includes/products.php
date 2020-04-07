@@ -26,7 +26,7 @@ require 'common.php';
                         <img src="images/2.jpg" alt="wassup"><div class="caption"><h4>Cannon EOS</h4></div>
                         <div>
                             <?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -40,7 +40,7 @@ require 'common.php';
                 <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/3.jpg" alt="wassup"><div class="caption">
                             <h4>Sony DSLR</h4></div><div>
                                 <?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                            <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -53,7 +53,7 @@ require 'common.php';
         <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/4.jpg" alt="wassup"><div class="caption">
                     <h4>Sony DSLR</h4></div><div>
                     <?php
-                            if(!isset($_SESSION['email'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -67,7 +67,7 @@ require 'common.php';
             <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/5.jpg" alt="wassup"><div class="caption">
                         <h4>Ollympus DSLR</h4></div><div>
                         <?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -83,7 +83,7 @@ require 'common.php';
                         <img src="images/10.jpg" alt="wassup"><div class="caption"><h4>Titan Model #201</h4>
                         </div><div>
                             <?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -97,7 +97,7 @@ require 'common.php';
                 <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/7.jpg" alt="wassup"><div class="caption">
                             <h4>Titan Model #301</h4></div>
                         <div><?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -109,7 +109,7 @@ require 'common.php';
                             ?></div></a></div>
         <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/11.jpg" alt="wassup"><div class="caption"><h4>HMT Milan</h4>
                 </div><div><?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -122,7 +122,7 @@ require 'common.php';
             <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/9.jpg" alt="wassup"><div class="caption"><h4>Faber Luba #111</h4></div>
                     <div>
                         <?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -137,7 +137,7 @@ require 'common.php';
         <div class="container"><div class="row"><div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/6.jpg" alt="wassup">
                         <div class="caption"><h4>H&W</h4></div><div>
                             <?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -150,7 +150,7 @@ require 'common.php';
                         </div></a></div>
                 <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/8.jpg" alt="wassup"><div class="caption"><h4>Luis Phill</h4></div>
                         <div><?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -162,7 +162,7 @@ require 'common.php';
                             ?></div></a></div>
         <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/14.jpg" alt="wassup"><div class="caption"><h4>John Zok</h4></div>
                 <div><?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     
@@ -174,7 +174,7 @@ require 'common.php';
                             ?></div></a></div>
             <div class="col-md-3 col-sm-6"><a href="#" class="thumbnail"><img src="images/13.jpg" alt="wassup"><div class="caption"><h4>Jhalsani</h4>
                     </div><div><?php
-                            if(!isset($_SESSION['logged_user'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
+                            if(!isset($_SESSION['id'])){?><a href="login.php" role="button" class="btn btn-block btn-primary">Add to cart</a><?php}
                             else{if(check_cart(1)){?> 
                             <a href="#" class="btn btn-block btn-success" disabled>Added to cart</a><?php} 
                             else {                                     

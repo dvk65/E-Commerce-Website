@@ -25,7 +25,7 @@ require 'common.php';
                             <input type="password" class="form-control" id="expass" placeholder="Enter Password" name="pass"></div> 
                             <button class="btn btn-primary">Submit</button>
                             <?php
-                            if(isset($_SESSION['{$exmail}'])){
+                            if(isset($_SESSION['id'])){
                                 include 'products.php';
                             }
                             else{
